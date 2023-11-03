@@ -4,6 +4,10 @@ Standalone application for updating Evolution PIM badge with number of unread em
 
 It has no GUI and the only purpose of it - to run as user daemon, check for Evolution files changes, get unread messages count from it's database and send dbus event with new count, so you'll get exact number of unread messages in all your mailboxes on task bar.
 
+## Github notice
+
+Github is a mirror. Please go to [my Gitea](https://code.pztrn.name/apps/evolved) for bug reporting, merge requests, etc.
+
 ## Dependencies
 
 Golang 1.21+ and C compiler present in system and found in `PATH`, as Evolution database is in sqlite3.
